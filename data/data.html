@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Export</title>
+    <link rel="stylesheet" href="data1.css">
+</head>
+<body>
+    <header>Welcome to Data Extractor app</header>
+    <div class="table-container">
+        <table id="myTable">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <td><input id="name" type="text"></td>
+                <td><input type="number" id="age"></td>
+                <td><input type="text" id="country"></td>
+                <td class="btn-cell"><button class="remove">-</button></td>
+            </tr>
+            
+        </table>
+        <button class="add-row">+</button>
+
+    </div>
+
+    <div class="button-container">
+        <button class="export">
+            Export Data
+        </button>
+        <input type="file" id="fileInput" style="display: none;">
+        <button class="import">
+            Import Data
+        </button>
+    </div>
+    <script src="data.js"></script>
+</body>
+</html>
