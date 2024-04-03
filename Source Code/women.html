@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="images/logo.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <title>Men's</title>
+    <link rel="stylesheet" href="CSS JS files/style.css">
+    <script defer src="CSS JS files/script.js"></script>
+    <style>
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .search-bar {
+            margin-left: 10px;
+        }
+
+        .additional-image {
+            margin-left: auto;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <pre>We now ship to 200 locations worldwide                                                                                                                                                                 <img src="images/flag.ico" alt="Language Icon" class="language-icon" height="15" width="20"></pre>
+    </header>
+    <hr>
+    <div class="logo-container">
+        <a href="index.html">
+            <img src="images/logo2.png" alt="Logo" height="60" width="80">
+        </a>
+        <input type="text" placeholder="Search..." class="search-bar">
+        <a href="shopping_cart.html" class="additional-image">
+            <img src="images/shopping_icon.png" alt="Shopping Cart">
+        </a>    
+    </div>
+    <nav>
+        <pre><a href="men.html">MEN</a>   <a href="women.html">WOMEN</a>   <a href="kids.html">KIDS</a></pre>
+    </nav>
+    <hr>
+    <section class="product">
+        <div class="product-item">
+            <img src="images/women1.png" alt="SOFT COAT WITH HOOD">
+            <h2>SOFT COAT WITH HOOD</h2>
+            <p class="description">Hooded coat with long sleeves. Front welt pockets. Belt fastening in the same fabric.</p>
+            <p class="price">$35.00</p>
+            <button onclick="addItem('SOFT COAT WITH HOOD', 35.00)" class="price-button">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="images/women2.png" alt="CROPPED DOUBLE-BREASTED WOOL-BLEND COAT">
+            <h2>CROPPED DOUBLE-BREASTED WOOL-BLEND COAT</h2>
+            <p class="description">Cropped coat made of a wool blend fabric. High collar and long sleeves. Front welt pockets. Double-breasted front with buttons.</p>
+            <p class="price">$40.00</p>
+            <button onclick="addItem('CROPPED DOUBLE-BREASTED WOOL-BLEND COAT', 40.00)" class="price-button">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="images/women3.png" alt="FOIL PRINT SLIP DRESS">
+            <h2>FOIL PRINT SLIP DRESS</h2>
+            <p class="description">Midi dress with a V-neck and thin straps. Metallic print. Open back.</p>
+            <p class="price">$32.00</p>
+            <button onclick="addItem('FOIL PRINT SLIP DRESS', 32.00)" class="price-button">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="images/women4.png" alt="CAPE WITH FAUX FUR TRIM">
+            <h2>CAPE WITH FAUX FUR TRIM</h2>
+            <p class="description">Short cape with a round neck, matching lining and lined hook fastening at the front.</p>
+            <p class="price">$30.00</p>
+            <button onclick="addItem('CAPE WITH FAUX FUR TRIM', 30.00)" class="price-button">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="images/women5.png" alt="HIGH-WAIST FAUX LEATHER LEGGINGS">
+            <h2>HIGH-WAIST FAUX LEATHER LEGGINGS</h2>
+            <p class="description">High-waist leggings with an elasticated waistband. Seamless hems. Side fastening with in-seam zip.</p>
+            <p class="price">$33.00</p>
+            <button onclick="addItem('HIGH-WAIST FAUX LEATHER LEGGINGS', 33.00)" class="price-button">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="images/women6.png" alt="LEGGINGS WITH RHINESTONE SIDE STRIPE">
+            <h2>LEGGINGS WITH RHINESTONE SIDE STRIPE</h2>
+            <p class="description">High-waist leggings with an elasticated waistband. Side stripe with rhinestone appliqués.</p>
+            <p class="price">$36.00</p>
+            <button onclick="addItem('LEGGINGS WITH RHINESTONE SIDE STRIPE', 36.00)" class="price-button">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="images/women7.png" alt="ZW COLLECTION DOUBLE-FACED BIKER JACKET">
+            <h2>ZW COLLECTION DOUBLE-FACED BIKER JACKET</h2>
+            <p class="description">Biker jacket made of faux leather fabric with matching faux shearling lining. Loose-fitting lapel collar and long sleeves.</p>
+            <p class="price">$15.00</p>
+            <button onclick="addItem('ZW COLLECTION DOUBLE-FACED BIKER JACKET', 15.00)" class="price-button">Add to Cart</button>
+
+        </div>
+        <div class="product-item">
+            <img src="images/women8.png" alt="CROPPED SOFT KNIT CARDIGAN">
+            <h2>CROPPED SOFT KNIT CARDIGAN</h2>
+            <p class="description">Cropped cardigan with a V-neck, long sleeves, front patch pockets and ribbed trims.</p>
+            <p class="price">$50.00</p>
+            <button onclick="addItem('CROPPED SOFT KNIT CARDIGAN', 50.00)" class="price-button">Add to Cart</button>
+
+        </div>
+        <div class="product-item">
+            <img src="images/women9.png" alt="DRAPED FAUX LEATHER DRESS">
+            <h2>DRAPED FAUX LEATHER DRESS</h2>
+            <p class="description">Off-the-shoulder short dress with a straight neckline. Draped fabric. Matching lining. Invisible side zip fastening.</p>
+            <p class="price">$70.00</p>
+            <button onclick="addItem('SATIN SHIRT', 70.00)" class="price-button">Add to Cart</button>
+
+        </div>
+        <div class="product-item">
+            <img src="images/women10.png" alt="HIGH-WAIST FAUX LEATHER LEGGINGS">
+            <h2>HIGH-WAIST FAUX LEATHER LEGGINGS</h2>
+            <p class="description">High-waist leggings with an elasticated waistband. Seamless hems. Side fastening with in-seam zip.</p>
+            <p class="price">$45.00</p>
+            <button onclick="addItem('HIGH-WAIST FAUX LEATHER LEGGINGS', 45.00)" class="price-button">Add to Cart</button>
+
+        </div>
+        <div class="product-item">
+            <img src="images/women11.png" alt="ZW COLLECTION FAUX SHEARLING BIKER JACKET">
+            <h2>CROPPED DENIM T-SHIRT</h2>
+            <p class="description">Biker jacket with a lapel collar and long sleeves. Featuring front pockets, contrast faux shearling lining and metal zip fastening at the front.</p>
+            <p class="price">$26.00</p>
+            <button onclick="addItem('CROPPED DENIM T-SHIRT', 45.00)" class="price-button">Add to Cart</button>
+
+        </div>
+        <div class="product-item">
+            <img src="images/women12.png" alt="HEELED MESH ANKLE BOOTS">
+            <h2>HEELED MESH ANKLE BOOTS</h2>
+            <p class="description">Mesh high-heel ankle boots. Stiletto heel. Pointed toe.</p>
+            <p class="price">$99.00</p>
+            <button onclick="addItem('HEELED MESH ANKLE BOOTS', 99.00)" class="price-button">Add to Cart</button>
+        </div>                   
+    </section>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer>
+        <pre>&copy; 2023 ShopSWIFT. All rights reserved.                                                                                                                                                   <a href="https://www.instagram.com/lisart_m12/"><img src="images/instagram.png" alt="instagram" height="20"></a><a href="https://www.facebook.com/lisart.mella"><img src="images/facebook.png" alt="facebook" height="20"></a><a href="https://www.pinterest.com/lisartm/"><img src="images/pinterest.png" alt="pinterest" height="20"></a></pre>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="images/logo.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <title>Men's</title>
+    <link rel="stylesheet" href="CSS JS files/style.css">
+    <script defer src="CSS JS files/script.js"></script>
+    
+</head>
+
+<body>
+    <header>
+        <pre>We now ship to 200 locations worldwide                                                                                                                                                                 <img src="images/flag.ico" alt="Language Icon" class="language-icon" height="15" width="20"></pre>
+    </header>
+    <hr>
+    <div id="success-message" style="display: none;">
+        Item successfully added to cart!
+    </div>
+    <div class="logo-container">
+        <a href="index.html">
+            <img src="images/logo2.png" alt="Logo" height="60" width="80">
+        </a>
+        <input type="text" placeholder="Search..." class="search-bar">
+        <a href="shopping_cart.html" class="additional-image">
+            <img src="images/shopping_icon.png" alt="Shopping Cart">
+        </a>    
+    </div>
+    <nav>
+        <pre><a href="men.html">MEN</a>   <a href="women.html">WOMEN</a>   <a href="kids.html">KIDS</a></pre>
+    </nav>
+    <hr>
+    <section class="product">
+        <div class="product-item">
+            <img src="images/men1.png" alt="GLITTERY DENIM JACKET">
+            <h2>GLITTERY DENIM JACKET</h2>
+            <p class="description">Boxy fit jacket, made from denim fabric with matching glitter appliqué. Lapel collar and long sleeves with button cuffs. Flap pockets on chest and piped pockets on hip. Washed effect. Front button fastening.</p>
+            <p class="price">$35.00</p>
+            <button onclick="addItem('GLITTERY DENIM JACKET', 35.00)" class="price-button">Add to Cart</button>  
+        </div>
+        <div class="product-item">
+            <img src="images/men2.png" alt="METALLIC DENIM OVERSHIRT">
+            <h2>METALLIC DENIM OVERSHIRT</h2>
+            <p class="description">Relaxed fit overshirt in washed denim with a metallic colour finish. Lapel collar and long sleeves with button cuffs. Front button fastening.</p>
+            <p class="price">$40.00</p>
+            <button onclick="addItem('METALLIC DENIM OVERSHIRT', 40.00)" class="price-button">Add to Cart</button>
+            
+        </div>
+        <div class="product-item">
+            <img src="images/men3.png" alt="RELAXED FIT METALLIC JEANS">
+            <h2>RELAXED FIT METALLIC JEANS</h2>
+            <p class="description">Relaxed fit jeans in washed denim with a metallic colour finish. Five pockets. Front zip and button fastening.</p>
+            <p class="price">$32.00</p>
+            <button onclick="addItem('RELAXED FIT METALLIC JEANS', 32.00)" class="price-button">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="images/men4.png" alt="HOODIE WITH PHOTO PATCHES">
+            <h2>HOODIE WITH PHOTO PATCHES</h2>
+            <p class="description">Loose-fitting hoodie with an adjustable drawstring hood and long sleeves. Front pouch pocket. Contrast patch appliqués on the front and back. Ribbed trims.</p>
+            <p class="price">$30.00</p>
+            <button onclick="addItem('HOODIE WITH PHOTO PATCHES', 30.00)" class="price-button">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="images/men5.png" alt="CARPENTER TROUSERS WITH POCKET">
+            <h2>CARPENTER TROUSERS WITH POCKET</h2>
+            <p class="description">Relaxed fit trousers with an elasticated waistband. Front pockets and rear patch pockets. Patch pocket appliqué and multipurpose strap on the legs. Faded effect. Adjustable hem with drawstrings. Front zip fly and top button fastening.</p>
+            <p class="price">$33.00</p>
+            <button onclick="addItem('CARPENTER TROUSERS WITH POCKET', 33.00)" class="price-button">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="images/men6.png" alt="METALLIC RETRO SNEAKERS">
+            <h2>METALLIC RETRO SNEAKERS</h2>
+            <p class="description">Sneakers. Combination of pieces and finishes on the upper. Six-eyelet facing. Chunky sole.</p>
+            <p class="price">$36.00</p>
+            <button onclick="addItem('METALLIC RETRO SNEAKERS', 36.00)" class="price-button">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="images/men7.png" alt="PACK OF 3 TEXTURED BOXERS">
+            <h2>PACK OF 3 TEXTURED BOXERS</h2>
+            <p class="description">Pack of three pairs of boxers with an elastic waistband.</p>
+            <p class="price">$15.00</p>
+            <button onclick="addItem('PACK OF 3 TEXTURED BOXERS', 15.00)" class="price-button">Add to Cart</button>
+
+        </div>
+        <div class="product-item">
+            <img src="images/men8.png" alt="METALLIC STRAIGHT FIT JEANS">
+            <h2>METALLIC STRAIGHT FIT JEANS</h2>
+            <p class="description">Straight fit jeans made of faded denim with a metallic finish. Five pockets. Front zip fly and top button fastening.</p>
+            <p class="price">$50.00</p>
+            <button onclick="addItem('METALLIC STRAIGHT FIT JEANS', 50.00)" class="price-button">Add to Cart</button>
+
+        </div>
+        <div class="product-item">
+            <img src="images/men9.png" alt="SATIN SHIRT">
+            <h2>SATIN SHIRT</h2>
+            <p class="description">Relaxed fit shirt made of satin fabric. Camp collar and long sleeves with buttoned cuffs. Button-up front.</p>
+            <p class="price">$70.00</p>
+            <button onclick="addItem('SATIN SHIRT', 70.00)" class="price-button">Add to Cart</button>
+
+        </div>
+        <div class="product-item">
+            <img src="images/men10.png" alt="CONTRAST DENIM QUILTED JACKET">
+            <h2>CONTRAST DENIM QUILTED JACKET</h2>
+            <p class="description">Boxy-fit jacket made of denim fabric with a contrast quilted interior. High neck and long sleeves with elasticated cuffs. Zip pockets at the hip and an inside pocket detail. Faded effect. Elasticated hem. Zip-up front.</p>
+            <p class="price">$45.00</p>
+            <button onclick="addItem('CONTRAST DENIM QUILTED JACKET', 45.00)" class="price-button">Add to Cart</button>
+
+        </div>
+        <div class="product-item">
+            <img src="images/men11.png" alt="CROPPED DENIM T-SHIRT">
+            <h2>CROPPED DENIM T-SHIRT</h2>
+            <p class="description">Cropped T-shirt with a round neck, short sleeves and irregular trims.</p>
+            <p class="price">$26.00</p>
+            <button onclick="addItem('CROPPED DENIM T-SHIRT', 26.00)" class="price-button">Add to Cart</button>
+
+        </div>
+        <div class="product-item">
+            <img src="images/men12.png" alt="LEATHER JACKET">
+            <h2>LEATHER JACKET</h2>
+            <p class="description">Jacket made of leather. Lapel collar and long sleeves. Hip welt pockets interior pocket detail. Button-up front.</p>
+            <p class="price">$99.00</p>
+            <button onclick="addItem('LEATHER JACKET', 99.00)" class="price-button">Add to Cart</button>
+        </div>                   
+    </section>
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div id="success-message" style="display: none;">
+        Item successfully added to cart!
+    </div>   
+    <footer>
+        <pre>&copy; 2023 ShopSWIFT. All rights reserved.                                                                                                                                                   <a href="https://www.instagram.com/lisart_m12/"><img src="images/instagram.png" alt="instagram" height="20"></a><a href="https://www.facebook.com/lisart.mella"><img src="images/facebook.png" alt="facebook" height="20"></a><a href="https://www.pinterest.com/lisartm/"><img src="images/pinterest.png" alt="pinterest" height="20"></a></pre>
+    </footer>
+</body>
+
+</html>

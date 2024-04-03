@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="icon" href="images/logo.ico" type="image/x-icon">
+    <title>Shopping Cart</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS JS files/style.css">
+    <script defer src="CSS JS files/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <pre>We now ship to 200 locations worldwide                                                                                                                                                                 <img src="images/flag.ico" alt="Language Icon" class="language-icon" height="15" width="20"></pre>
+    </header>
+    <hr>
+    <div class="logo-container">
+        <a href="index.html">
+            <img src="images/logo2.png" alt="Logo" height="60" width="80">
+        </a>
+        <input type="text" placeholder="Search..." class="search-bar" oninput="searchItems(this.value)">
+        <a href="shopping_cart.html" class="additional-image">
+            <img src="images/shopping_icon.png" alt="Shopping Cart">
+        </a>    
+    </div>
+    <nav>
+        <pre><a href="men.html">MEN</a>   <a href="women.html">WOMEN</a>   <a href="kids.html">KIDS</a></pre>
+    </nav>
+    <hr>
+
+    <div class="thank-you-message">
+        Thank you for shopping with us!
+    </div>
+
+    <button onclick="displayItems()">Checkout</button>
+    <button onclick="deleteItems()">Delete Items</button>
+    <button onclick="sumPrices()">Total</button>
+
+    <div id="itemsContainer"></div>
+    <p id="totalSum"></p>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer>
+        <pre>&copy; 2023 ShopSWIFT. All rights reserved.                                                                                                                                                   <a href="https://www.instagram.com/lisart_m12/"><img src="images/instagram.png" alt="instagram" height="20"></a><a href="https://www.facebook.com/lisart.mella"><img src="images/facebook.png" alt="facebook" height="20"></a><a href="https://www.pinterest.com/lisartm/"><img src="images/pinterest.png" alt="pinterest" height="20"></a></pre>
+    </footer>
+
+</body>
+</html>

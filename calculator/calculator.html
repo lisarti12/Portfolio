@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background: #333;
+            color: white;
+            padding: 2px;
+            text-align: center;
+            margin: 0;
+        }
+        body{
+            margin: 0;
+        }
+        .calculator-container{
+            display: flex;
+            justify-content: center;
+        }
+        table{
+            
+            border: 1px solid;
+            padding: 3px;
+            width: 240px;
+            height: 310px;
+            
+        }
+        td{
+            width: 60px;
+        }
+        button{
+            height: 100%;
+            width: 100%;
+            font-size: large;
+            padding: 1px;
+            background-color: rgb(149, 205, 224);
+            border: 1px solid gray;
+        }
+        button:hover{
+            background-color: rgb(123, 193, 216);
+            cursor: pointer;
+        }
+        input{
+            width: 95%;
+            height: 70%;
+            text-align: right;
+            font-size: large;
+        }
+        input::placeholder{
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Calculator app</h1>
+
+    </header>
+    <br>
+    <main>
+        <div class="calculator-container">
+            <table>
+                <tr>
+                    <td colspan="3">
+                        <input type="text" id="input" step="any" oninput="validateInput(this)" placeholder="0">
+                    </td>
+                    <td>
+                        <button class="clear">C</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><button class="number">7</button></td>
+                    <td><button class="number">8</button></td>
+                    <td><button class="number">9</button></td>
+                    <td><button class="operator">/</button></td>
+                    
+                </tr>
+                <tr>
+                    <td><button class="number">6</button></td>
+                    <td><button class="number">5</button></td>
+                    <td><button class="number">4</button></td>
+                    <td><button class="operator">*</button></td>
+                    
+                </tr>
+                <tr>
+                    <td><button class="number">3</button></td>
+                    <td><button class="number">2</button></td>
+                    <td><button class="number">1</button></td>
+                    <td><button class="operator">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="dot">.</button></td>
+                    <td><button class="number">0</button></td>
+                    <td><button class="sum">=</button></td>
+                    <td><button class="operator">+</button></td>
+                </tr>
+
+                
+
+        </table>
+
+
+    </div>
+        
+    </main>
+    <script src="calculator.js"></script>
+</body>
+</html>
